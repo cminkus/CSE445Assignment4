@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+	<Hotel Rating="4.2">
+		<Name>Westin Tempe</Name>
+		<Phone>800-937-8461</Phone>
+		<Phone>480-968-8885</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Marriott Downtown Los Angeles</Name>
+		<Phone>213-555-1212</Phone>
+		<Address NearestAirport="Los Angeles International">
+			<Number>200</Number>
+			<Street>S Figueroa St</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90012</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.5">
+		<Name>Hilton New York</Name>
+		<Phone>212-555-1234</Phone>
+		<Phone>212-555-5678</Phone>
+		<Address NearestAirport="JFK">
+			<Number>1</Number>
+			<Street>W 57th St</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10019</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Hyatt Regency Chicago</Name>
+		<Phone>312-555-7890</Phone>
+		<Address NearestAirport="O'Hare International">
+			<Number>151</Number>
+			<Street>E Randolph St</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60601</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>Sheraton San Francisco</Name>
+		<Phone>415-555-6789</Phone>
+		<Address NearestAirport="San Francisco International">
+			<Number>300</Number>
+			<Street>Powell St</Street>
+			<City>San Francisco</City>
+			<State>CA</State>
+			<Zip>94102</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Holiday Inn Express Atlanta</Name>
+		<Phone>404-555-1111</Phone>
+		<Phone>404-555-2222</Phone>
+		<Address NearestAirport="Hartsfield-Jackson Atlanta International">
+			<Number>500</Number>
+			<Street>Peachtree St</Street>
+			<City>Atlanta</City>
+			<State>GA</State>
+			<Zip>30303</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.1">
+		<Name>Renaissance Boston</Name>
+		<Phone>617-555-3333</Phone>
+		<Address NearestAirport="Logan International">
+			<Number>250</Number>
+			<Street>Atlantic Ave</Street>
+			<City>Boston</City>
+			<State>MA</State>
+			<Zip>02110</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Best Western Plus Seattle</Name>
+		<Phone>206-555-4444</Phone>
+		<Address NearestAirport="Seattle-Tacoma International">
+			<Number>400</Number>
+			<Street>Pike St</Street>
+			<City>Seattle</City>
+			<State>WA</State>
+			<Zip>98101</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.2">
+		<Name>Embassy Suites Dallas</Name>
+		<Phone>214-555-5555</Phone>
+		<Address NearestAirport="Dallas/Fort Worth International">
+			<Number>600</Number>
+			<Street>Elm St</Street>
+			<City>Dallas</City>
+			<State>TX</State>
+			<Zip>75202</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>DoubleTree by Hilton Orlando</Name>
+		<Phone>407-555-6666</Phone>
+		<Phone>407-555-7777</Phone>
+		<Address NearestAirport="Orlando International">
+			<Number>700</Number>
+			<Street>International Dr</Street>
+			<City>Orlando</City>
+			<State>FL</State>
+			<Zip>32819</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.9">
+		<Name>Comfort Inn Houston</Name>
+		<Phone>713-555-8888</Phone>
+		<Address NearestAirport="George Bush Intercontinental">
+			<Number>800</Number>
+			<Street>Main St</Street>
+			<City>Houston</City>
+			<State>TX</State>
+			<Zip>77002</Zip>
+		</Address>
+	</Hotel>
+</Hotels>
