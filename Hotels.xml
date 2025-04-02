@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Hotel>
+<Hotels>
 	<Hotel id="H001" Rating="4.2">
 		<Name>Westin Tempe</Name>
 		<Phone>800-937-8461</Phone>
@@ -12,7 +12,7 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-	<Hotel>
+	<Hotel id="H002">
 		<Name>Marriott Downtown Los Angeles</Name>
 		<Phone>213-555-1212</Phone>
 		<Address NearestAirport="Los Angeles International">
@@ -25,6 +25,8 @@
 	</Hotel>
 	<Hotel id="H003" Rating="4.5">
 		<Name>Hilton New York</Name>
+		<Phone>212-555-1234</Phone>
+		<Phone>212-555-5678</Phone>
 		<Address NearestAirport="JFK">
 			<Number>1</Number>
 			<Street>W 57th St</Street>
@@ -42,7 +44,8 @@
 			<City>Chicago</City>
 			<State>IL</State>
 			<Zip>60601</Zip>
-		</Hotel>
+		</Address>
+	</Hotel>
 	<Hotel id="H005" Rating="4.3">
 		<Name>Sheraton San Francisco</Name>
 		<Phone>415-555-6789</Phone>
@@ -56,7 +59,6 @@
 	</Hotel>
 	<Hotel id="H006">
 		<Name>Holiday Inn Express Atlanta</Name>
-		<Name>Holiday Inn Express Atlanta Duplicate</Name>
 		<Phone>404-555-1111</Phone>
 		<Phone>404-555-2222</Phone>
 		<Address NearestAirport="Hartsfield-Jackson Atlanta International">
@@ -123,4 +125,4 @@
 			<Zip>77002</Zip>
 		</Address>
 	</Hotel>
-</Hotel>
+</Hotels>
