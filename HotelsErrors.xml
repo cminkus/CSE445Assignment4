@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- Error 1: Root element changed from "Hotels" to "Hotel" -->
 <Hotel>
-	<!-- Hotel 1: Westin Tempe (remains normal) -->
 	<Hotel Rating="4.2">
 		<Name>Westin Tempe</Name>
 		<Phone>800-937-8461</Phone>
@@ -14,9 +12,6 @@
 			<Zip>85281</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 2: Marriott Downtown Los Angeles 
-       Error 2: Required attribute "NearestAirport" removed from Address -->
 	<Hotel>
 		<Name>Marriott Downtown Los Angeles</Name>
 		<Phone>213-555-1212</Phone>
@@ -28,12 +23,8 @@
 			<Zip>90012</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 3: Hilton New York 
-       Error 3: Phone element missing entirely -->
 	<Hotel Rating="4.5">
 		<Name>Hilton New York</Name>
-		<!-- No Phone element provided -->
 		<Address NearestAirport="JFK">
 			<Number>1</Number>
 			<Street>W 57th St</Street>
@@ -42,9 +33,6 @@
 			<Zip>10019</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 4: Hyatt Regency Chicago 
-       Error 4: Address element missing closing tag -->
 	<Hotel Rating="4.0">
 		<Name>Hyatt Regency Chicago</Name>
 		<Phone>312-555-7890</Phone>
@@ -54,10 +42,7 @@
 			<City>Chicago</City>
 			<State>IL</State>
 			<Zip>60601</Zip>
-			<!-- Missing closing </Address> tag here -->
 		</Hotel>
-
-	<!-- Hotel 5: Sheraton San Francisco (remains normal) -->
 	<Hotel Rating="4.3">
 		<Name>Sheraton San Francisco</Name>
 		<Phone>415-555-6789</Phone>
@@ -69,9 +54,6 @@
 			<Zip>94102</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 6: Holiday Inn Express Atlanta 
-       Error 5: Two Name elements provided -->
 	<Hotel>
 		<Name>Holiday Inn Express Atlanta</Name>
 		<Name>Holiday Inn Express Atlanta Duplicate</Name>
@@ -85,8 +67,6 @@
 			<Zip>30303</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 7: Renaissance Boston (remains normal) -->
 	<Hotel Rating="4.1">
 		<Name>Renaissance Boston</Name>
 		<Phone>617-555-3333</Phone>
@@ -98,8 +78,6 @@
 			<Zip>02110</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 8: Best Western Plus Seattle (remains normal) -->
 	<Hotel>
 		<Name>Best Western Plus Seattle</Name>
 		<Phone>206-555-4444</Phone>
@@ -111,8 +89,6 @@
 			<Zip>98101</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 9: Embassy Suites Dallas (remains normal) -->
 	<Hotel Rating="4.2">
 		<Name>Embassy Suites Dallas</Name>
 		<Phone>214-555-5555</Phone>
@@ -124,8 +100,6 @@
 			<Zip>75202</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 10: DoubleTree by Hilton Orlando (remains normal) -->
 	<Hotel>
 		<Name>DoubleTree by Hilton Orlando</Name>
 		<Phone>407-555-6666</Phone>
@@ -138,8 +112,6 @@
 			<Zip>32819</Zip>
 		</Address>
 	</Hotel>
-
-	<!-- Hotel 11: Comfort Inn Houston (remains normal) -->
 	<Hotel Rating="3.9">
 		<Name>Comfort Inn Houston</Name>
 		<Phone>713-555-8888</Phone>

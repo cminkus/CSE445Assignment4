@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Hotels>
-	<Hotel Rating="4.2">
+<Hotel>
+	<Hotel id="H001" Rating="4.2">
 		<Name>Westin Tempe</Name>
 		<Phone>800-937-8461</Phone>
 		<Phone>480-968-8885</Phone>
@@ -23,10 +23,8 @@
 			<Zip>90012</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4.5">
+	<Hotel id="H003" Rating="4.5">
 		<Name>Hilton New York</Name>
-		<Phone>212-555-1234</Phone>
-		<Phone>212-555-5678</Phone>
 		<Address NearestAirport="JFK">
 			<Number>1</Number>
 			<Street>W 57th St</Street>
@@ -35,7 +33,7 @@
 			<Zip>10019</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4.0">
+	<Hotel id="H004" Rating="4.0">
 		<Name>Hyatt Regency Chicago</Name>
 		<Phone>312-555-7890</Phone>
 		<Address NearestAirport="O'Hare International">
@@ -44,9 +42,8 @@
 			<City>Chicago</City>
 			<State>IL</State>
 			<Zip>60601</Zip>
-		</Address>
-	</Hotel>
-	<Hotel Rating="4.3">
+		</Hotel>
+	<Hotel id="H005" Rating="4.3">
 		<Name>Sheraton San Francisco</Name>
 		<Phone>415-555-6789</Phone>
 		<Address NearestAirport="San Francisco International">
@@ -57,8 +54,9 @@
 			<Zip>94102</Zip>
 		</Address>
 	</Hotel>
-	<Hotel>
+	<Hotel id="H006">
 		<Name>Holiday Inn Express Atlanta</Name>
+		<Name>Holiday Inn Express Atlanta Duplicate</Name>
 		<Phone>404-555-1111</Phone>
 		<Phone>404-555-2222</Phone>
 		<Address NearestAirport="Hartsfield-Jackson Atlanta International">
@@ -69,7 +67,7 @@
 			<Zip>30303</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4.1">
+	<Hotel id="H007" Rating="4.1">
 		<Name>Renaissance Boston</Name>
 		<Phone>617-555-3333</Phone>
 		<Address NearestAirport="Logan International">
@@ -80,7 +78,7 @@
 			<Zip>02110</Zip>
 		</Address>
 	</Hotel>
-	<Hotel>
+	<Hotel id="H008">
 		<Name>Best Western Plus Seattle</Name>
 		<Phone>206-555-4444</Phone>
 		<Address NearestAirport="Seattle-Tacoma International">
@@ -91,7 +89,7 @@
 			<Zip>98101</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="4.2">
+	<Hotel id="H009" Rating="4.2">
 		<Name>Embassy Suites Dallas</Name>
 		<Phone>214-555-5555</Phone>
 		<Address NearestAirport="Dallas/Fort Worth International">
@@ -102,7 +100,7 @@
 			<Zip>75202</Zip>
 		</Address>
 	</Hotel>
-	<Hotel>
+	<Hotel id="H010">
 		<Name>DoubleTree by Hilton Orlando</Name>
 		<Phone>407-555-6666</Phone>
 		<Phone>407-555-7777</Phone>
@@ -114,7 +112,7 @@
 			<Zip>32819</Zip>
 		</Address>
 	</Hotel>
-	<Hotel Rating="3.9">
+	<Hotel id="H011" Rating="3.9">
 		<Name>Comfort Inn Houston</Name>
 		<Phone>713-555-8888</Phone>
 		<Address NearestAirport="George Bush Intercontinental">
@@ -125,4 +123,4 @@
 			<Zip>77002</Zip>
 		</Address>
 	</Hotel>
-</Hotels>
+</Hotel>
